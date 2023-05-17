@@ -28,15 +28,41 @@ Below are requirements extracted from the source repository README.md, followed 
 - [x] code: routes + menu
 - [x] code: db
 - [x] code: grid + insert + update
-- [x] code: grid + filters (delete via mass action disabled)
+- [x] code: grid + filters 
+- [x] code: grid bug on delete via mass action - disabled 
+
+No **Admin**, menu **Infobase**, opção **Access Key**.
+
+A intenção do módulo é criar Chaves de Acesso para os usuários (em um segundo momento pode ser programado o fluxo completo, neste momento está disponível o CRUD para administração das Chaves de Acesso via Magento Admin).
 
 ![](/home/ailtonribeiro/craft/code/toolbox/m246/src/app/code/Infobase/Grid/README_image_1.png)
 
 
-> 
+> Front-End
+> 	Listagem dos dados 
+>
+> Com os dados salvos em banco, crie uma listagem das informações em alguma rota personalizada no front-end.
+>
+> Não há necessidade de um layout complexo com várias camadas de CSS.
 
-- [x] 
+- [x] code: interface
 
+Na URL /accesskey/list/all/ está disponível a listagem a seguir:
+
+![](/home/ailtonribeiro/craft/code/toolbox/m246/src/app/code/Infobase/Grid/README_image_2.png)
+
+> O que nós não gostaríamos:
+> 	Ver commits grandes, sem muita explicação nas mensagens em seu repositório
+>
+> O que avaliaremos de seu projeto:
+> 	Histórico de commits do git
+
+Os primeiros commits possuem mais arquivos, por se tratatem da estrutura inicial, conforme fui testando e eventualmente encontrando algum desafio, o número de commits foi aumentando e ficando mais específico.
+
+> Entre os critérios de avaliação estão:
+> 	Código limpo e organização
+
+Utilizando Mess Detector e PHP CodeSniffer.
 
 
 ## Installation details
@@ -47,7 +73,7 @@ Below are requirements extracted from the source repository README.md, followed 
 git clone https://github.com/ribahh-4738/backend-challenge-two.git
 ```
 
-2. copy `Infobase` folder
+2. copy `Infobase` folder to app/code
 
 ```bash
 cp -r Infobase [instalation_path]/app/code/
