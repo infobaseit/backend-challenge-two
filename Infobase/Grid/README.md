@@ -8,22 +8,39 @@ Below are requirements extracted from the source repository README.md, followed 
 
 - [x] https://github.com/ribahh-4738/backend-challenge-two/tree/backend-ailton-ribeiro
 
+> Escolha uma entidade de sua prefêrencia para que possa desenvolver um CRUD completo.
+
+- [x] code: entidade escolhida Customer
+
+> O nome do módulo fica a sua escolha, solicitamos apenas que esteja na vendor "Infobase";
+
+- [x] code: Grid
+
+> Painel Administrativo
+> 	GRID 
+> 		Deve ser possível cadastrar/listar/editar/deletar um registro.
+> 		
+> No painel administrativo, deverá conter uma GRID listando o conjunto das informações de sua entidade escolhida.
+>
+> GRID (deve ser possível filtrar e ordenar as colunas)
+
+- [x] 
 
 ## Installation details
 
-. clone
+1. clone
 
 ```bash
 git clone https://github.com/ribahh-4738/backend-challenge-two.git
 ```
 
-. copy `app/code/Infobase` folder
+2. copy `Infobase` folder
 
 ```bash
-cp -r backend-challenge-two/app/code/Infobase /app/code/
+cp -r Infobase [instalation_path]/app/code/
 ```
 
-. install
+3. install
 
 ```bash
 php bin/magento setup:upgrade
