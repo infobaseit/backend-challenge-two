@@ -5,7 +5,7 @@ interface GridInterface
 {
     const KEY_ID = 'key_id';
 
-    const ACCESSKEY = 'access_key';
+    const ACCESS_KEY = 'access_key';
 
     public function getKeyId();
 

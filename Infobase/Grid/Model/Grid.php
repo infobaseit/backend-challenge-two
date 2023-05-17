@@ -29,11 +29,11 @@ class Grid extends AbstractModel implements GridInterface
 
     public function getAccessKey()
     {
-        return $this->getData(self::ACCESSKEY);
+        return $this->getData(self::ACCESS_KEY);
     }
 
     public function setAccessKey($access_key)
     {
-        return $this->setData(self::ACCESSKEY, $access_key);
+        return $this->setData(self::ACCESS_KEY, $access_key);
     }
 }

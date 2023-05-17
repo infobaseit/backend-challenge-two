@@ -26,12 +26,13 @@ class Form extends Generic
         //$dateFormat = $this->_localeDate->getDateFormat();
         $model = $this->_coreRegistry->registry('row_data');
         $form = $this->_formFactory->create(
-            ['data' => [
-                'id' => 'edit_form',
-                'enctype' => 'multipart/form-data',
-                'action' => $this->getData('action'),
-                'method' => 'post'
-            ]
+            [
+                'data' => [
+                    'id' => 'edit_form',
+                    'enctype' => 'multipart/form-data',
+                    'action' => $this->getData('action'),
+                    'method' => 'post'
+                ]
             ]
         );
         $form->setHtmlIdPrefix('smb_');

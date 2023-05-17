@@ -28,6 +28,7 @@ Below are requirements extracted from the source repository README.md, followed 
 - [x] code: routes + menu
 - [x] code: db
 - [x] code: grid + insert + update
+- [ ] code: grid + delete via mass action
 
 
 ## Installation details
