@@ -24,7 +24,10 @@ Below are requirements extracted from the source repository README.md, followed 
 >
 > GRID (deve ser possível filtrar e ordenar as colunas)
 
-- [x] 
+- [x] code: module from scratch 
+- [x] code: routes + menu
+- [x] code: 
+
 
 ## Installation details
 
@@ -43,7 +46,8 @@ cp -r Infobase [instalation_path]/app/code/
 3. install
 
 ```bash
-php bin/magento setup:upgrade
+bin/magento module:enable Infobase_Grid
+bin/magento setup:upgrade
 ```
 
 For information about a module installation in Magento 2, see [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html).

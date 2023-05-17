@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Infobase_Grid::gridmanager" title="Infobase" module="Infobase_Grid" sortOrder="10" resource="Infobase_Grid::gridmanager"/>
+        <add id="Infobase_Grid::create" title="Access Key" module="Infobase_Grid" sortOrder="20" parent="Infobase_Grid::gridmanager" action="infobase/grid/index" resource="Infobase_Grid::create"/>
+    </menu>
+</config>

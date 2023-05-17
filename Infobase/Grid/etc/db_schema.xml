@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="infobase_accesskey_grid" resource="default" engine="innodb" comment="Infobase Access Key">
+        <column xsi:type="int" name="key_id" unsigned="true" nullable="false" identity="true" comment="Key ID"/>
+        <column xsi:type="varchar" name="access_key" nullable="true" length="255" comment="Access Key"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="key_id"/>
+        </constraint>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP" comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP" comment="Updated At"/>
+    </table>
+</schema>
