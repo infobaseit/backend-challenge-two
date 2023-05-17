@@ -35,8 +35,7 @@ No **Admin**, menu **Infobase**, opção **Access Key**.
 
 A intenção do módulo é criar Chaves de Acesso para os usuários (em um segundo momento pode ser programado o fluxo completo, neste momento está disponível o CRUD para administração das Chaves de Acesso via Magento Admin).
 
-![](/home/ailtonribeiro/craft/code/toolbox/m246/src/app/code/Infobase/Grid/README_image_1.png)
-
+![](Infobase/Grid/README_image_1.png)
 
 > Front-End
 > 	Listagem dos dados 
@@ -49,7 +48,7 @@ A intenção do módulo é criar Chaves de Acesso para os usuários (em um segun
 
 Na URL /accesskey/list/all/ está disponível a listagem a seguir:
 
-![](/home/ailtonribeiro/craft/code/toolbox/m246/src/app/code/Infobase/Grid/README_image_2.png)
+![](Infobase/Grid/README_image_2.png)
 
 > O que nós não gostaríamos:
 > 	Ver commits grandes, sem muita explicação nas mensagens em seu repositório
