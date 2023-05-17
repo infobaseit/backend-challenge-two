@@ -2,12 +2,13 @@
 namespace Infobase\Grid\Controller\Adminhtml\Grid;
 
 use Infobase\Grid\Model\GridFactory;
+use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Page;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Registry;
 
-class AddRow extends \Magento\Backend\App\Action
+class AddRow extends Action
 {
     private Registry $coreRegistry;
 

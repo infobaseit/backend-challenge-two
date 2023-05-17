@@ -17,7 +17,7 @@ class Grid extends AbstractModel implements GridInterface
         $this->_init('Infobase\Grid\Model\ResourceModel\Grid');
     }
 
-    public function getKeyId(): int
+    public function getKeyId()
     {
         return $this->getData(self::KEY_ID);
     }

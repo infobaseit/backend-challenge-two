@@ -28,7 +28,15 @@ Below are requirements extracted from the source repository README.md, followed 
 - [x] code: routes + menu
 - [x] code: db
 - [x] code: grid + insert + update
-- [ ] code: grid + delete via mass action
+- [x] code: grid + filters (delete via mass action disabled)
+
+![](/home/ailtonribeiro/craft/code/toolbox/m246/src/app/code/Infobase/Grid/README_image_1.png)
+
+
+> 
+
+- [x] 
+
 
 
 ## Installation details
