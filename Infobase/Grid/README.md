@@ -26,7 +26,8 @@ Below are requirements extracted from the source repository README.md, followed 
 
 - [x] code: module from scratch 
 - [x] code: routes + menu
-- [x] code: 
+- [x] code: db
+- [x] code: grid + insert + update
 
 
 ## Installation details
