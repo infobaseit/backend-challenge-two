@@ -27,11 +27,11 @@ Below are requirements extracted from the source repository README.md, followed 
 > GRID (deve ser possível filtrar e ordenar as colunas)
 
 - [x] code: module from scratch 
-- [x] code: routes + menu
-- [x] code: db
-- [x] code: grid + insert + update
-- [x] code: grid + filters 
-- [x] code: grid bug on delete via mass action - disabled 
+- [x] code: grid, routes + menu
+- [x] code: db schema, table `infobase_accesskey_grid`
+- [x] code: grid, insert + update
+- [x] code: grid, filters + sort
+- [x] code: grid, bug on delete via mass action - disabled 
 
 No **Admin**, menu **Infobase**, opção **Access Key**.
 
@@ -48,7 +48,7 @@ A intenção do módulo é criar Chaves de Acesso para os usuários (em um segun
 
 - [x] code: interface
 
-Na URL /accesskey/list/all/ está disponível a listagem a seguir:
+No **Front-end**, URL /accesskey/list/all/ está disponível a listagem a seguir:
 
 ![](./README_image_2.png)
 
