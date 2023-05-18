@@ -1,6 +1,8 @@
 
 # Infobase IT
 
+### Infobase_Grid
+
 Below are requirements extracted from the source repository README.md, followed by the tasks that were performed to meet the requirements.
 
 > Primeiramente, faça um fork e clone do projeto;
@@ -72,15 +74,20 @@ Utilizando Mess Detector e PHP CodeSniffer.
 git clone https://github.com/ribahh-4738/backend-challenge-two.git
 ```
 
-2. copy `Infobase` folder to app/code
+2. checkout specific branch `backend-ailton-ribeiro`
 
 ```bash
 cd backend-challenge-two
 git checkout backend-ailton-ribeiro 
+```
+
+3. copy `Infobase` folder to app/code
+
+```bash
 cp -r Infobase [instalation_path]/app/code/
 ```
 
-3. install
+4. install
 
 ```bash
 bin/magento module:enable Infobase_Grid
