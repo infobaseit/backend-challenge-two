@@ -4,5 +4,6 @@
     <menu>
         <add id="Infobase_Grid::gridmanager" title="Infobase" module="Infobase_Grid" sortOrder="10" resource="Infobase_Grid::gridmanager"/>
         <add id="Infobase_Grid::create" title="Access Key" module="Infobase_Grid" sortOrder="20" parent="Infobase_Grid::gridmanager" action="infobase/grid/index" resource="Infobase_Grid::create"/>
+        <add id="Infobase_Grid::accesskey_configuration" title="Configuration" module="Infobase_Grid" sortOrder="99" parent="Infobase_Grid::gridmanager" action="adminhtml/system_config/edit/section/accesskey" resource="Infobase_Grid::accesskey_configuration"/>
     </menu>
 </config>

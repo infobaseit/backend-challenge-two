@@ -9,16 +9,26 @@
 </style>
 
 <table>
+<?php
+    if (empty($block->getGridCollection())) {
+?>
+    <tr>
+        <th colspan="2">Module disabled or there is no Access Key data.</th>
+    </tr>
+<?php
+    } else {
+?>
     <tr>
         <th class="item-id">ID</th>
         <th>Access Key</th>
     </tr>
-    <?php
-    foreach ($block->getGridCollection() as $_key => $_item){
-        echo '<tr>
-                <td>'.$_item->getKeyId().'</td>
-                <td>'.$_item->getAccessKey().'</td>
-              </tr>';
+<?php
+        foreach ($block->getGridCollection() as $_key => $_item){
+            echo '<tr>
+                    <td>'.$_item->getKeyId().'</td>
+                    <td>'.$_item->getAccessKey().'</td>
+                  </tr>';
+        }
     }
-    ?>
+?>
 </table>
