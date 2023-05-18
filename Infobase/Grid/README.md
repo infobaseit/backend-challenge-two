@@ -75,6 +75,8 @@ git clone https://github.com/ribahh-4738/backend-challenge-two.git
 2. copy `Infobase` folder to app/code
 
 ```bash
+cd backend-challenge-two
+git checkout backend-ailton-ribeiro 
 cp -r Infobase [instalation_path]/app/code/
 ```
 
